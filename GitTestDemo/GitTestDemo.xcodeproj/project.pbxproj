@@ -16,6 +16,8 @@
 		DCB907F62404CC570035A8F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB907F52404CC570035A8F7 /* main.m */; };
 		DCB908002404CC570035A8F7 /* GitTestDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB907FF2404CC570035A8F7 /* GitTestDemoTests.m */; };
 		DCB9080B2404CC570035A8F7 /* GitTestDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB9080A2404CC570035A8F7 /* GitTestDemoUITests.m */; };
+		DCB9081A2404CF230035A8F7 /* File1.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB908192404CF230035A8F7 /* File1.m */; };
+		DCB9081D2404CF3A0035A8F7 /* File2.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB9081C2404CF3A0035A8F7 /* File2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		DCB908062404CC570035A8F7 /* GitTestDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCB9080A2404CC570035A8F7 /* GitTestDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestDemoUITests.m; sourceTree = "<group>"; };
 		DCB9080C2404CC570035A8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB908182404CF230035A8F7 /* File1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File1.h; sourceTree = "<group>"; };
+		DCB908192404CF230035A8F7 /* File1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = File1.m; sourceTree = "<group>"; };
+		DCB9081B2404CF3A0035A8F7 /* File2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = File2.h; sourceTree = "<group>"; };
+		DCB9081C2404CF3A0035A8F7 /* File2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = File2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				DCB907E72404CC550035A8F7 /* SceneDelegate.m */,
 				DCB907E92404CC550035A8F7 /* ViewController.h */,
 				DCB907EA2404CC550035A8F7 /* ViewController.m */,
+				DCB908182404CF230035A8F7 /* File1.h */,
+				DCB908192404CF230035A8F7 /* File1.m */,
+				DCB9081B2404CF3A0035A8F7 /* File2.h */,
+				DCB9081C2404CF3A0035A8F7 /* File2.m */,
 				DCB907EC2404CC550035A8F7 /* Main.storyboard */,
 				DCB907EF2404CC570035A8F7 /* Assets.xcassets */,
 				DCB907F12404CC570035A8F7 /* LaunchScreen.storyboard */,
@@ -267,8 +277,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB9081D2404CF3A0035A8F7 /* File2.m in Sources */,
 				DCB907EB2404CC550035A8F7 /* ViewController.m in Sources */,
 				DCB907E52404CC550035A8F7 /* AppDelegate.m in Sources */,
+				DCB9081A2404CF230035A8F7 /* File1.m in Sources */,
 				DCB907F62404CC570035A8F7 /* main.m in Sources */,
 				DCB907E82404CC550035A8F7 /* SceneDelegate.m in Sources */,
 			);
@@ -446,6 +458,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nyso.GitTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,6 +476,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nyso.GitTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
